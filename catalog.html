@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Nerds</title>
+	<link href="http://fonts.googleapis.com/css?family=Roboto:500&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.min.css" rel="stylesheet">
+	<link rel="icon" href="img/favicon.ico" type="image/ico">
+</head>
+<body>
+	<header class="site-header header-catalog">
+		<nav class="main-site-navigation container clearfix">
+			<figure class="logo">
+				<a href="index.html">
+					<img src="img/logo.png" height="56" width="139" alt="nerds">
+				</a>
+			</figure>
+			<ul class="site-navigation">
+				<li><a href="index.html">студия</a></li>
+				<li><a href="#">клиенты</a></li>
+				<li><a href="catalog.html" class="current-navigation">магазин</a></li>
+				<li><a href="#">контакты</a></li>
+				<li><a href="#" class="menu-cart">корзина</a></li>
+			</ul>
+		</nav>
+		<h1 class="catalog-title container">
+         Добро пожаловать в магазин готовых макетов
+    </h1>
+	</header>
+	<main class="main-catalog container clearfix">
+		<aside class="catalog-left-block">
+			<form action="#" method="post">
+				<h3 class="catalog-filter-title catalog-price-title">
+      			Стоимость:
+      	</h3>
+				<div class="catalog-price">
+					<div class="catalog-price-controls">
+						<div class="price-bar">
+							<div class="price-bar-controls"></div>
+						</div>
+						<div class="price-toggle price-min-toggle"></div>
+						<div class="price-toggle price-max-toggle"></div>
+					</div>
+					<label for="price-min" class="price-label">
+      				От
+      		</label>
+					<input type="text" name="price" class="price-min" id="price-min" value="0">
+					<label for="price-max" class="price-label">
+						До
+					</label>
+					<input type="text" name="price" class="price-max" id="price-max" value="15 000">
+				</div>
+				<h3 class="catalog-filter-title catalog-grid-title">
+      			Сетка:
+      	</h3>
+				<input type="radio" name="grid" id="adaptive" value="adaptive" checked>
+				<label for="adaptive" class="catalog-label">
+            	Адаптивная
+        </label>
+				<input type="radio" name="grid" id="fixed" value="fixed">
+				<label for="fixed" class="catalog-label">
+            	Фиксированная
+        </label>
+				<input type="radio" name="grid" id="rubber" value="rubber">
+				<label for="rubber" class="catalog-label">
+            	Резиновая
+        </label>
+				<h3 class="catalog-filter-title catalog-features-title">
+      			Особенности:
+      	</h3>
+				<input type="checkbox" name="slider" id="slider" value="slider" checked>
+				<label for="slider" class="catalog-label">
+      			Слайдер
+      	</label>
+				<input type="checkbox" name="advantages" id="advantages" value="advantages">
+				<label for="advantages" class="catalog-label">
+      			Блок приемуществ
+      	</label>
+				<input type="checkbox" name="news" id="news" value="news" checked>
+				<label for="news" class="catalog-label">
+      			Новости
+      	</label>
+				<input type="checkbox" name="gallery" id="gallery" value="gallery">
+				<label for="gallery" class="catalog-label">
+      			Галерея
+      	</label>
+				<input type="checkbox" name="cart" id="cart" value="cart">
+				<label for="cart" class="catalog-label">
+      			Корзина
+      	</label>
+				<button type="submit" class="btn filter-btn">
+					Показать
+				</button>
+			</form>
+		</aside>
+		<div class="catalog-right-block">
+			<div class="catalog-sort clearfix">
+				<span class="catalog-sort-title">сортировать:</span>
+				<span class="catalog-sort-option">по цене</span>
+				<a href="#" class="catalog-sort-option">по типу</a>
+				<a href="#" class="catalog-sort-option">по функционалу</a>
+				<div class="catalog-arrow-block">
+					<a href="#" class="catalog-arrow-down catalog-arrow-active"></a>
+					<a href="#" class="catalog-arrow-up "></a>
+				</div>
+			</div>
+			<div class="catalog-content">
+				<a href="#" class="catalog-item">
+					<figure class="catalog-image">
+						<img src="img/aviator.jpg" width="240" height="240" alt="aviator">
+					</figure>
+					<div class="catalog-item-block">
+						<h3 class="catalog-item-title">aviator</h3>
+						<p class="catalog-item-text">
+							Одностраничный макет с авторским дизайном
+						</p>
+						<span class="btn catalog-item-btn">8000 Р.</span>
+					</div>
+				</a>
+				<a href="#" class="catalog-item">
+					<figure class="catalog-image">
+						<img src="img/sunset.jpg" width="240" height="240" alt="sunset">
+					</figure>
+					<div class="catalog-item-block">
+						<h3 class="catalog-item-title">sunset</h3>
+						<p class="catalog-item-text">
+							Интернет-магазин с личным кабинетом
+						</p>
+						<span class="btn catalog-item-btn">10000 Р.</span>
+					</div>
+				</a>
+				<a href="#" class="catalog-item">
+					<figure class="catalog-image">
+						<img src="img/forte.jpg" width="240" height="240" alt="forte">
+					</figure>
+					<div class="catalog-item-block">
+						<h3 class="catalog-item-title">forte</h3>
+						<p class="catalog-item-text">
+							Отличный макет для личного блога
+						</p>
+						<span class="btn catalog-item-btn">5000 Р.</span>
+					</div>
+				</a>
+				<a href="#" class="catalog-item">
+					<figure class="catalog-image">
+						<img src="img/modern.jpg" width="240" height="240" alt="modern">
+					</figure>
+					<div class="catalog-item-block">
+						<h3 class="catalog-item-title">modern organic thai</h3>
+						<p class="catalog-item-text">
+							Сайт для ресторана быстрого питания
+						</p>
+						<span class="btn catalog-item-btn">12000 Р.</span>
+					</div>
+				</a>
+				<a href="#" class="catalog-item">
+					<figure class="catalog-image">
+						<img src="img/avenue.jpg" width="240" height="240" alt="avenue">
+					</figure>
+					<div class="catalog-item-block">
+						<h3 class="catalog-item-title">avenue</h3>
+						<p class="catalog-item-text">
+							Макет для блога о путешествиях
+						</p>
+						<span class="btn catalog-item-btn">8000 Р.</span>
+					</div>
+				</a>
+				<a href="#" class="catalog-item">
+					<figure class="catalog-image">
+						<img src="img/dovetail.jpg" width="240" height="240" alt="dovetail">
+					</figure>
+					<div class="catalog-item-block">
+						<h3 class="catalog-item-title">dovetail</h3>
+						<p class="catalog-item-text">
+							Интернет-магазин с галереей товаров
+						</p>
+						<span class="btn catalog-item-btn">14000 Р.</span>
+					</div>
+				</a>
+			</div>
+			<div class="paginator">
+				<span class="paginator-current">1</span>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#" class="btn btn-paginator-next">следующая</a>
+			</div>
+		</div>
+	</main>
+	<footer class="site-footer">
+		<div class="map-block">
+			<div class="map-script"></div>
+			<div class="container">
+				<div class="map-contacts">
+					<h3 class="map-contacts-title">
+                  nerds design studio
+               </h3>
+					<p class="map-contacts-text">
+						191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8
+					</p>
+					<p class="map-contacts-tel">
+						тел. +7 (812) 275-75-75
+					</p>
+					<a class="btn btn-contacts" href="#open-modal">напишите нам</a>
+				</div>
+			</div>
+		</div>
+		<div class="main-footer container clearfix">
+			<div class="footer-icon">
+				<a href="#" class="social social-tw"></a>
+				<a href="#" class="social social-fb"></a>
+				<a href="#" class="social social-ins"></a>
+			</div>
+			<section class="footer-right-column">
+				<h2 class="footer-title">
+               Давайте дружить, это выгодно!
+            </h2>
+				<p class="footer-text">
+					Скидка 10% для друзей из социальных сетей.
+				</p>
+			</section>
+		</div>
+	</footer>
+	<div class="modal-content " id="open-modal">
+		<a class="modal-content-close" href="#close" title="Закрыть">Закрыть</a>
+		<form action="" method="post" class="submit-form">
+			<div class="user-data clearfix">
+				<div class="user-name">
+					<label for="name" class="label-data">Ваше имя:</label>
+					<input type="text" name="name" class="name" id="name" placeholder="Представьтесь, пожалуйста" required>
+				</div>
+				<div class="user-email">
+					<label for="email" class="label-data">Ваш e-mail:</label>
+					<input type="email" name="email" class="email" id="email" placeholder="Для отправки ответа" required>
+				</div>
+			</div>
+			<label for="modal-text" class="label-data">Текст письма:</label>
+			<textarea name="text" class="modal-text" id="modal-text" rows="5" placeholder="В свободной форме" required></textarea>
+			<button type="submit" class="btn modal-btn">Отправить</button>
+		</form>
+	</div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrab8ghtxMkx_Zn8D31Kum_yJEWfdJkXU">
+	</script>
+	<script src="js/script.min.js"></script>
+</body>
+</html>
